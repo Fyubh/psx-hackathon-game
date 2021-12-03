@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{948001F9-E814-1214-E2DF-49B09CDE61AA}</ProjectGuid>
+    <ProjectGuid>{6AD745AC-991E-DE9B-60CD-88699DB72871}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,17 +53,15 @@
     <UnityVersion>2021.2.4f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio (Preview).app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets/Scripts/CameraFoward.cs" />
     <Compile Include="Assets/Scripts/CameraRotate.cs" />
     <Compile Include="Assets/Scripts/CameraFowardZ.cs" />
     <Compile Include="Assets/Scripts/ChangeCamera.cs" />
     <Compile Include="Assets/Shaders/Billboard/billboard.cs" />
-    <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/rotate.cs" />
     <Compile Include="Assets/Shaders/imageEffects/cPrecision.cs" />
+    <Compile Include="Assets/Move Scripts (FOR WALK MERGE TO MAIN)/PlayerController.cs" />
+    <Compile Include="Assets/LIGHT SCRIPT/TourchTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Shaders/Trasparent/psx-trasparent-unlit.shader" />
